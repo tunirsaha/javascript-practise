@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+table {
+    margin: 0px;
+    outline: solid 1.5px #cacaca;
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    background-color: #fafafa;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+.load-button,
+.reset-button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4ad65f;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.reset-button {
+    margin-left: 10px;
+    background-color: #eabd43;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    outline: solid 1px #cacaca;
+}
+
+th {
+    background-color: #f0eaea;
+}
+
+.container {
+    display: flex;
+    align-items: self-start;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.settings-panel {
+    padding: 0 30px;
+    width: 30%;
+    height: 100vh;
+}
+
+.table-panel {
+    width: 70%;
+    padding: 0 30px;
+}
+
+.settings-panel .url-input,
+.table-panel .search-input {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.settings-panel .url-input input[type="text"] {
+    width: 100%;
+}
+
+.table-container{
+    margin-top: 40px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+th.sortable>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* width of horizontal scrollbar */
+::-webkit-scrollbar:horizontal {
+    height: 8px;
+}

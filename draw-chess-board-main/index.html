@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+    <link rel="stylesheet" href="style.css" async defer>
+</head>
+
+<body>
+    <div id="chess-board"></div>
+</body>
+<script src="main.js"></script>
+<script>
+    const boardDefinition = {
+        sizeInPx: 800,
+        colors: ['black', 'white'],
+        pieceColors: ['red', 'purple'],
+        loadPieces: true
+    }
+    drawBoard(boardDefinition)
+</script>
+
+</html>

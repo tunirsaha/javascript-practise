@@ -1,0 +1,21 @@
+#chess-board {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+#chess-board .tile {
+    outline: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3em;
+}
+
+#chess-board .tile .piece{
+    text-shadow: 1px solid black;
+}
+
+#chess-board .tile.black {
+    background-color: black;
+}
